@@ -1,0 +1,35 @@
+/* App Main Container Styles */
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #f5f7fa;
+}
+
+/* Main Content Area */
+main {
+  flex: 1;
+  padding: 2rem 1rem;
+}
+
+/* Page Container */
+.page-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Error Page */
+h1 {
+  text-align: center;
+  color: #1e3c72;
+  margin: 2rem 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  main {
+    padding: 1rem 0.5rem;
+  }
+}
